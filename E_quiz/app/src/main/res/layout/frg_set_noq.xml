@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Manage_q"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layot"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/bla"
+            android:textSize="18dp"
+            android:text="Click on Set to change"/>
+
+       <TextView
+           android:id="@+id/tvtime"
+           android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/bla"
+           android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="30dp"
+        android:text="Time : " />
+        <EditText
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/Etxttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:inputType="number"
+            android:outlineSpotShadowColor="@color/bla"
+            android:layout_marginTop="12dp"
+            android:hint="Enter Time in Minutes"
+            android:layout_marginRight="100dp"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/chnge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="2dp"
+           android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:text="Change"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/settime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:text="Set"
+            android:visibility="invisible"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layot"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/bla"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:text="No Of Qustions" />
+        <TextView
+            android:id="@+id/tvnoq"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/bla"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="30dp"
+            android:text="Count: " />
+        <EditText
+            android:id="@+id/etxtnoq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="100dp"
+            android:layout_toStartOf="@+id/setnoq"
+            android:hint="Set No of Questions"
+            android:inputType="number"
+            android:outlineSpotShadowColor="@color/bla"
+            android:paddingLeft="10dp"
+            android:visibility="invisible"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/changnoq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:text="Change"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/setnoq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:text="Set"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+</FrameLayout>

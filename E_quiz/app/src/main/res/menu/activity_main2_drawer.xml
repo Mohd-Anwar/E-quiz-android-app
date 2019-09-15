@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/books"
+            android:icon="@drawable/buk"
+            android:title="Books" />
+        <item
+            android:id="@+id/checkr"
+            android:icon="@drawable/res"
+            android:title="Check Resuls" />
+        <item
+            android:id="@+id/stting"
+            android:icon="@drawable/sett"
+            android:title="Setting" />
+        <item
+            android:id="@+id/askq"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="FAQ" />
+
+        <item
+            android:id="@+id/logot"
+            android:icon="@drawable/abt"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/abtus"
+                android:icon="@drawable/abt"
+                android:title="About Developer" />
+            <item
+                android:id="@+id/report"
+                android:icon="@drawable/report"
+                android:title="Report" />
+        </menu>
+    </item>
+
+</menu>

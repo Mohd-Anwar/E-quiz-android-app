@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">E_quiz</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_setting">setting</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_activity_report">report</string>
+
+    <string name="Lang">Choose a language</string>
+
+    <string-array name="Language">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>C#</item>
+        <item>Android</item>
+        <item>Python</item>
+        <item>IOT</item>
+    </string-array>
+    <string name="title_activity_admin_main">Admin_main</string>
+    <string name="title_activity_book">Book</string>
+
+
+    <string name="c">C</string>
+    <string name="cpp">C++</string>
+    <string name="java">Java</string>
+    <string name="dnet">.NEt</string>
+    <string name="Php">PHP</string>
+    <string name="android">Android</string>
+
+    <string-array name="c_array">
+
+        <item>Book1</item>
+        <item>Book2</item>
+        <item>Book3</item>
+
+    </string-array>
+
+    <string-array name="cpp_array">
+        <item>Espresso</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+    </string-array>
+
+    <string-array name="java_array">
+        <item>Carbonara</item>
+        <item>Capellini</item>
+    </string-array>
+
+    <string-array name="dnet_array">
+        <item>Cola</item>
+        <item>Lemonade</item>
+        <item>Citrus soda</item>
+    </string-array>
+
+</resources>
